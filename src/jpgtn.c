@@ -1,5 +1,5 @@
 /*
-    Copyright (C) 2002 Jeremy Madea <jpgtn@madea.net>
+    Copyright (C) 2002-2012 Jeremy Madea <jpgtn@madea.net>
 
     This file is part of jpgtn.
 
@@ -303,5 +303,5 @@ static void print_usage(char *prog)
 static void print_version(void)
 {
     printf("jpgtn : Version %s\n",VERSION);
-    printf("Copyright (c) 2002 Jeremy Madea <jpgtn@madea.net>\n\n");
+    printf("Copyright (c) 2002-2012 Jeremy Madea <jpgtn@madea.net>\n\n");
 }

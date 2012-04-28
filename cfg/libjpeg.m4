@@ -1,5 +1,5 @@
 ## libjpeg.m4 -- provide and handle --with-libjpeg=PATH configure option
-## Copyright (C) 2000 Jeremy Madea
+## Copyright (C) 2000-2012 Jeremy Madea
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
