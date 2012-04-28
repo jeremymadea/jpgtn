@@ -3,7 +3,7 @@ Preface
 
   Jpgtn now uses a GNU autoconf/automake driven build process. This is new
   and I've only tested it on Solaris (7 & 8) and Red Hat Linux 8.0. I want
-  to hear your feedback.  Please, send it to jeremymadea@mindspring.com.
+  to hear your feedback.  Please, send it to jpgtn@madea.net.
 
   Thanks!
     -j

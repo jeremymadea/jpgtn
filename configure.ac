@@ -17,7 +17,7 @@
 # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-AC_INIT(jpgtn, 2.06, jeremymadea@mindspring.com)
+AC_INIT(jpgtn, 2.06, jpgtn@madea.net)
 AC_CONFIG_SRCDIR(src/jpgtn.c)
 # Configure the auxillary dir before init'ing automake otherwise automake can't
 # find install.sh. 

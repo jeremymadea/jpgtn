@@ -1,3 +1,12 @@
+Slated for 2.07: 
+1. Update contact information throughout. 
+2. Clean up the build process. 
+3. Remove unnecessary files.
+
+
+
+
+Following is the historical TODO list:
 In no particular order: 
 
     *  Long option support. 
@@ -17,7 +26,7 @@ Meta-TODO (Changes to the build process and package) in no particular order:
     *  Test suite
 
 
-Suggestions welcomed! Send them to jeremymadea@mindspring.com and they will be
+Suggestions welcomed! Send them to jpgtn@madea.net and they will be
 considered.
 
 

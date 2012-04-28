@@ -1,5 +1,5 @@
 /*
-    Copyright (C) 2002 Jeremy Madea <jeremymadea@mindspring.com>
+    Copyright (C) 2002 Jeremy Madea <jpgtn@madea.net>
 
     This file is part of jpgtn.
 
