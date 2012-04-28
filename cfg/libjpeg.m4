@@ -15,7 +15,7 @@
 ## along with this program; if not, write to the Free Software
 ## Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-AC_DEFUN(JPGTN_FIND_LIBJPEG,
+AC_DEFUN([JPGTN_FIND_LIBJPEG],
 [AC_ARG_WITH(libjpeg,
              AC_HELP_STRING([--with-libjpeg=PATH],
                             [Specify the location of libjpeg]),

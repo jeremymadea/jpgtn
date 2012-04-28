@@ -22,7 +22,7 @@ dnl
 dnl expands path to an absolute path and assigns it to variable
 dnl This was borrowed from mapserver-3.6.0's aclocal.m4 and modified slightly.
 dnl
-AC_DEFUN(AC_EXPAND_PATH,[
+AC_DEFUN([AC_EXPAND_PATH],[
   if test -z "$1" || echo "$1" | grep '^/' >/dev/null ; then
     $2=$1
   else
