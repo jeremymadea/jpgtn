@@ -17,8 +17,7 @@
 
 MAINTAINERCLEANFILES = Makefile.in
 
-man_MANS	= jpgtn.1
-EXTRA_DIST	= ANNOUNCE  CHANGES copyleft.notice  jpgtn-2.07.lsm  jpgtn.1
+EXTRA_DIST	= NO_TEST_SUITE_YET
 
 ## Makefile.am 
 

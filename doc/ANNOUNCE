@@ -10,7 +10,7 @@ and found that an old bug prevented jpgtn from processing photos produced by
 my digicam. Right then and there I started hacking on the code for the first
 time in about three years. 
 
-Out of curiousity, I searched around on the web and found that there several 
+Out of curiosity, I searched around on the web and found that there several 
 hundred references to this little utility out there. I was pleased to see it
 had gained a small following among the PHP crowd. There were also many sites 
 on which I found images named with the telltale "tn_" prefix that jpgtn uses
