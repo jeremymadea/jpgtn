@@ -4462,7 +4462,7 @@ fi
 
 
 
-ac_config_files="$ac_config_files Makefile src/Makefile doc/Makefile"
+ac_config_files="$ac_config_files Makefile src/Makefile doc/Makefile test/Makefile"
 
 ac_config_commands="$ac_config_commands default"
 
@@ -5188,6 +5188,7 @@ do
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
     "doc/Makefile") CONFIG_FILES="$CONFIG_FILES doc/Makefile" ;;
+    "test/Makefile") CONFIG_FILES="$CONFIG_FILES test/Makefile" ;;
     "default") CONFIG_COMMANDS="$CONFIG_COMMANDS default" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5 ;;

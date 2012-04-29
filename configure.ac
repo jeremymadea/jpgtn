@@ -40,5 +40,5 @@ AC_CHECK_FUNCS([calloc strdup strrchr rindex])
 JPGTN_FIND_LIBJPEG
 AC_SUBST(ac_aux_dir)
 
-AC_OUTPUT([Makefile src/Makefile doc/Makefile],
+AC_OUTPUT([Makefile src/Makefile doc/Makefile test/Makefile],
 [test -z "$CONFIG_HEADERS" || echo timestamp > src/stamp-h.in])

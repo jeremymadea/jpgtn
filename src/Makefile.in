@@ -42,7 +42,7 @@ am__aclocal_m4_deps = $(top_srcdir)/cfg/libjpeg.m4 \
 	$(top_srcdir)/cfg/utility.m4 $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
-mkinstalldirs = $(SHELL) $(top_srcdir)/cfg/mkinstalldirs
+mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = config.h
 CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
@@ -155,7 +155,7 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 MAINTAINERCLEANFILES = Makefile.in
 INCLUDES = -I$(top_builddir) -I$(top_srcdir) 
-noinst_HEADERS = jpgtn.h
+noinst_HEADERS = jpgtn.h common.h
 jpgtn_SOURCES = jpgtn.c readjpeg.c writejpeg.c resizepic.c
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-am

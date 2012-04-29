@@ -35,7 +35,7 @@ subdir = .
 DIST_COMMON = README $(am__configure_deps) $(srcdir)/Makefile.am \
 	$(srcdir)/Makefile.in $(top_srcdir)/configure AUTHORS COPYING \
 	ChangeLog INSTALL NEWS TODO cfg/depcomp cfg/install-sh \
-	cfg/missing cfg/mkinstalldirs
+	cfg/missing
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/cfg/libjpeg.m4 \
 	$(top_srcdir)/cfg/utility.m4 $(top_srcdir)/configure.ac
@@ -43,7 +43,7 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno config.status.lineno
-mkinstalldirs = $(SHELL) $(top_srcdir)/cfg/mkinstalldirs
+mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/src/config.h
 CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
@@ -193,7 +193,7 @@ AUX_DIST = $(auxdir)/install-sh $(auxdir)/missing \
 
 EXTRA_DIST = bootstrap
 AUTOMAKE_OPTIONS = foreign
-SUBDIRS = src doc
+SUBDIRS = src doc test
 MAINTAINERCLEANFILES = Makefile.in aclocal.m4 configure src/config-h.in \
 			src/stamp-h.in $(AUX_DIST)
 

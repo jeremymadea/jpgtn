@@ -21,7 +21,7 @@ AUX_DIST		= $(auxdir)/install-sh $(auxdir)/missing \
 EXTRA_DIST		= bootstrap
 
 AUTOMAKE_OPTIONS 	= foreign
-SUBDIRS 		= src doc
+SUBDIRS 		= src doc test
 MAINTAINERCLEANFILES 	= Makefile.in aclocal.m4 configure src/config-h.in \
 			src/stamp-h.in $(AUX_DIST)
 
