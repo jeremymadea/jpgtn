@@ -27,8 +27,3 @@ MAINTAINERCLEANFILES 	= Makefile.in aclocal.m4 configure src/config-h.in \
 
 ACLOCAL			= aclocal -I $(auxdir)
 CPPFLAGS		= @CPPFLAGS@
-dist-hook:
-	(cd $(distdir) && mkdir $(auxdir))
-	for file in $(AUX_DIST) $(AUX_DIST_EXTRA); do \
-	  cp $$file $(distdir)/$$file; \
-	done
